@@ -4,8 +4,9 @@ import pandas as pd
 import plotly.express as px
 import numpy as np
 
+URL = "https://raw.githubusercontent.com/paulajcortest-boop/mi-proyecto-streamlit/refs/heads/main/vehicles_us.csv"
 # Datos
-df = pd.read_csv(r"C:\Users\HP\Downloads\vehicles_us.csv")
+df = pd.read_csv(URL)
 
 # Titulo
 st.header('Anuncio de venta de coches', divider="gray")
